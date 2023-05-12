@@ -100,7 +100,7 @@ export default function FetchNews() {
                                 <div id="news-item" key={objectID}>
                                     <h1>{title}</h1>
                                     <a href={url} target="_blank" rel="noreferrer">Read full article</a>
-                                    <p><span>By: </span> <Link to={`/user/${author}`}>{author}</Link></p>
+                                    <p><span>By: </span> <Link target="_blank" rel="noreferrer" to={`/user/${author}`}>{author}</Link></p>
                                     <p><span>Date: </span>{format(new Date(created_at), "dd-MM-yyyy")}</p>
                                 </div>
                             ))}

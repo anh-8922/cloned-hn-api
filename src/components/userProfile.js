@@ -2,6 +2,7 @@ import useFetch from './useFetch';
 //import '../css/UserProfile.css'
 //import '../css/responsive.css'
 import './css/anh.css';
+import Footer from './footer';
 
 import { Link, useParams } from 'react-router-dom';
 import { format } from 'date-fns';
@@ -58,6 +59,7 @@ export default function UserProfile() {
             </>
           )}
         </div>
+        
         
     </>    
   );

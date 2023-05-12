@@ -14,16 +14,16 @@ http://hn.algolia.com/api/v1/search?query=...
 
 ### `Step 1`
 
-  # Load news directly from the HN API about a pre-set topic (e.g: React)
-  # When this is done and working, create a search bar, and allow the user to search for any topic (search input + “Search” button)
+  **Load news directly from the HN API about a pre-set topic (e.g: React)**
+  **When this is done and working, create a search bar, and allow the user to search for any topic (search input + “Search” button)**
 
 ### `Step 2`
-  # Display a spinner or a loading message when the news are being fetched
-  # Handle the scenario where no news match the user search
-  # Handle potential errors from the API and alert the user
+  **Display a spinner or a loading message when the news are being fetched**
+  **Handle the scenario where no news match the user search**
+  **Handle potential errors from the API and alert the user**
  
  ### `Step 3`
-  # Implement pagination
+  **Implement pagination**
 
 **Note: updating**
 

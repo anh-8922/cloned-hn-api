@@ -6,9 +6,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from "./components/layout";
 import Home from "./components/navbar/home";
 import Login from './components/navbar/login';
-import Header from './components/heading';
-import Footer from './components/footer';
-import FetchNews from './components/news';
+
 import UserProfile from './components/userProfile';
 function App() {
   return (

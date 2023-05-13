@@ -17,10 +17,11 @@ function App() {
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="login" element={<Login />}/>
-          <Route path="top" element={<UserProfile/>}/>
+          <Route path="/user/:name" element={<UserProfile/>}/>
         </Route>
       </Routes>
-    </BrowserRouter>
+    </BrowserRouter>    
+    
     
   );
 }

@@ -8,8 +8,8 @@ import { Link, useParams } from 'react-router-dom';
 import { format } from 'date-fns';
 
 export default function UserProfile() {
-  const { username } = useParams();
-  const [user, isLoading] = useFetch(`http://hn.algolia.com/api/v1/users/${username}`);
+  const { name } = useParams();
+  const [user, isLoading] = useFetch(`http://hn.algolia.com/api/v1/users/${name}`);
 
   return (
     <>
